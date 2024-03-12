@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../imagenes/logos/logo mundo probiotic M.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+    <title>Blog Microbiota</title>
+</head>
+<body>
+    <div>
+        <div 
+            class="offcanvas offcanvas-end w-50" 
+            data-bs-scroll="true" 
+            tabindex="-1" 
+            id="offcanvasWithBothOptions"
+            aria-labelledby="offcanvasWithBothOptionsLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel"> <i class="fa-solid fa-house" style="color: #d0b5da;"></i> Home</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="homelistacanva">
+                    <li>
+                        <a href="../index.html">
+                            <i class="fa-solid fa-house" style="color: #d0b5da;"></i>
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../productos/index.html"><i class="fa-solid fa-jar" style="color: #d0b5da;"></i>
+                            Productos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-bacterium" style="color: #d0b5da;"></i>
+                            Blog
+                        </a>
+                    </li> 
+                    <li>
+                        <a href="../carrito/index.html"><i class="fa-solid fa-cart-shopping" style="color: #d0b5da;"></i>
+                            Carrito
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div> 
+    </div>
+
+    <div>
+        <header class="container-fluid navbarra">
+            <div class="row">
+                <div class="col-lg-12 navbarracontenido">
+                    <div>
+                        <img class="logoheader" src="../imagenes/logos/logo mundo probiotic M.png" alt="logo">
+                    </div>
+                    <nav class="navlista">
+                        <ul>
+                            <li>
+                                <a href="../index.html">
+                                    <i class="fa-solid fa-house" style="color: #d0b5da;"></i>
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../productos/index.html"><i class="fa-solid fa-jar" style="color: #d0b5da;"></i>
+                                    Productos
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-solid fa-bacterium" style="color: #d0b5da;"></i>
+                                    Blog
+                                </a>
+                            </li> 
+                            <li>
+                                <a href="../carrito/index.html"><i class="fa-solid fa-cart-shopping" style="color: #d0b5da;"></i>
+                                    Carrito
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <button
+                        class="btn hamburguesa"
+                        type="button"
+                        data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasWithBothOptions"
+                        aria-controls="offcanvasWithBothOptions">
+                        <span class="material-symbols-outlined material-icons md-36">
+                            menu
+                        </span>   
+                    </button>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <div class="blogintro">
+        <h1>Sonrisas Microbianas</h1>
+        <p>¡Bienvenido al lugar donde tu microbiota y tú serán los mejores amigos para una salud increíble! Descubre todo lo que necesitas para mantener la paz interna y dejar que tus amiguitos microscópicos trabajen en equipo para mejorar tu bienestar. ¡Tu viaje hacia una salud asombrosa comienza aquí!</p>
+    </div>
+
+    <div class="container"> 
+        <!-- <div class="row" data-masonry='{"percentPosition: true }'>
+            <div class="col-lg-4 col-md-6 col-6" style="height: 200px;">
+                <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-6 card2" style="height: 500px;">
+                <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-6" style="height: 300px;"> 
+                <div class="card">
+                    <div class="card-body">
+                      <blockquote class="blockquote mb-0">
+                        <p>A well-known quote, contained in a blockquote element.</p>
+                        <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                      </blockquote>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-6" style="height: 300px;">
+                <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-6">
+                <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-6"> 
+                <div class="card">
+                    <div class="card-body">
+                      <blockquote class="blockquote mb-0">
+                        <p>A well-known quote, contained in a blockquote element.</p>
+                        <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                      </blockquote>
+                    </div>
+                  </div>
+            </div>
+        </div> -->
+        
+    </div>
+
+    <div class="row padreblog" data-masonry='{"percentPosition": true }' style="position: relative;">
+        <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 0%; top: 0px;">
+            <div class="card" style="width: 100%; background-color: #ffcbd8;">
+                <a href="./blog1.html">
+                    <img src="../imagenes/productos/productos-stylepag/_d0415295-3246-474f-87ea-3ca488bab26e.jpeg" class="card-img-top" alt="...">
+                 <div class="card-body">
+                  <h5 class="card-title">Microbiota?</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                 </div>
+                </a>
+              </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 0%; top: 0px;">
+            <div class="card" style="height: 150px;">
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p>A well-known quote, contained in a blockquote element.</p>
+                    <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                  </blockquote>
+                </div>
+              </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 0%; top: 0px;">
+            <div class="card" style="width: 100%; background-color: #ffdfcf;">
+                <img src="../imagenes/blog imagenes inicio/blog1.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Probioticos y Prebioticos</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 0%; top: 0px;">
+            <div class="card" style="height: 150px;">
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p>A well-known quote, contained in a blockquote element.</p>
+                    <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                  </blockquote>
+                </div>
+              </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 0%; top: 0px;">
+            <div class="card" style="width: 100%; background-color: #fff1f1;">
+                <img src="../imagenes/blog imagenes inicio/blog2.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">La magia de los fermentados</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 0%; top: 0px;">
+            <div class="card mb-3" style="width: 100%; height: 300px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="../imagenes/blog imagenes inicio/blog3.jpeg" class="img-fluid rounded-start" alt="..." style="height: 280px;">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Relacion Intestino-Cerebro</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 0%; top: 0px;">
+            <div class="card" style="width: 100%; height: 500px;">
+                <img src="../imagenes/blog imagenes inicio/blog4.avif" class="card-img-top" alt="..." style="height: 300px;">
+                <div class="card-body">
+                  <h5 class="card-title">Nuestras mejores y peores amigas:"Las Bacterias"</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 0%; top: 0px;">
+            <div class="card" style="height: 150px;">
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p>A well-known quote, contained in a blockquote element.</p>
+                    <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                  </blockquote>
+                </div>
+              </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/630fe56658.js" crossorigin="anonymous"></script> 
+   
+  
+</body>
+</html>

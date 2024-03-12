@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+/* Fuente de todo mi sitio */
+html, body {
+    font-family: "Mulish", sans-serif;
+    color: #3f3f3f;
+} 
+/* imagen del fondo de home */
+.imgfondo {
+    background-image: url(imagenes/home/backgroundimg.png
+    );
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+/* logo del header corecto en movil como en responsive*/
+.logoheader {
+    width: 68px;
+    display: inline-block;
+}
+/* icono hamburguesa en movil */
+.material-icons.md-36 { 
+    font-size: 50px; 
+}
+/* contenido de header responsive (home, products,etc) */
+header ul {    
+    list-style: none;
+}
+header li {
+    text-align: center;
+    float: left;
+    width: 7rem;
+    
+}
+/* contenido de la lista en movil */
+.homelistacanva {
+    list-style: none;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+a {
+    text-decoration: none;
+    color: #3f3f3f;
+
+}
+.homelistacanva li {
+    margin: 0 0 50px 0;
+}
+.fa-solid {
+    margin-right: 10px;
+}
+.navlista {
+    display: none;
+}
+/* quite la hamburguesa en responsive y puse la lista otra vez de contenidos*/
+@media only screen and (min-width: 768px) {
+    .navlista {
+        display: block;
+    }
+    .hamburguesa {
+        display: none;
+    }
+}
+/* simetria del icono y el logo en el header/barra de navegacion */
+.navbarra {
+    height: 90px;
+    padding: 25px;
+    position: absolute;
+    margin: -8px 0 0 0;
+    top: 0;
+    left: 0;
+}
+.navbarracontenido {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+/* HOme titulo y contenidos de home */
+.hometitulo {
+    padding: 20px;
+    font-size: 70px;
+    margin: 75px 0px 0px 0px;
+    
+}
+.intromicro {
+    font-size: 23px;
+    padding: 20px;
+}
+@media only screen and (min-width: 992px) {
+    .hometitulo {
+        font-size: 100px;
+        padding: 80px 80px 20px 80px;
+    }
+    .intromicro {
+        font-size: 25px;
+        padding: 40px 80px 80px 80px;
+    }
+}
+.imghome{
+    width: 100%;
+    margin-top: 24px;
+    
+}
+.iframehome {
+    width: 100%;
+}
+.iframehome h2 {
+    font-size: 20px;
+    padding-left: 20px;
+    margin: 38px 0 0 0;
+}
+    
+.iframehome iframe {
+    border:10px solid #fce0f8;
+    width:400px; 
+    height:247px;
+    margin: 16px;
+    border-radius: 26px;
+}
+@media only screen and (min-width: 768px) {
+    .iframehome h2 {
+        font-size: 31px;
+        margin-left: 60px;
+    }
+    .iframehome {
+        width: auto;
+    }
+    
+    .padreiframehome {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 90px;
+        margin-bottom: 50px;
+        
+    }
+    .iframehome iframe {
+        width: 526px;
+        height: 270px;
+    }
+}
+.spich-home {
+    background-color: #fff1f1;
+    padding: 30px;
+}
+.spich-home h2 {
+    margin-bottom: 20px;
+}
+@media only screen and (min-width: 768px){
+    .spich-home {
+        padding: 200px;
+    }
+    .spich-home h2 {
+        font-size: 40px;
+    }
+    .spich-home p {
+        font-size: 20px;
+    }
+}
+.ondafooter {
+    --mask:
+      radial-gradient(67.27px at 50% 95px,#000 99%,#0000 101%) calc(50% - 100px) 0/200px 100%,
+      radial-gradient(67.27px at 50% -45px,#0000 99%,#000 101%) 50% 50px/200px 100% repeat-x;
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
+
+    background-color: #d0b5da;
+    min-height: 100px;
+    margin-top: 3px;
+    margin-bottom: -10px;
+}
+.padrefooter {
+    background-color: #d0b5da;
+    display: flex;
+    
+}
+.footerbox ul {
+    list-style: none;
+    display: flex;
+    padding: 20px;
+
+}
+.footerbox li {
+    margin-right: 23px;
+}
+.letrafooter {
+    font-size: 16px;
+}
+@media only screen and (min-width: 768px) {
+    .padrefooter {
+        justify-content: center;
+        
+    }
+    .footerbox li {
+        margin-right: 50px;
+        font-size: 20px;
+    }
+}
+
+/* PAGINA PRODUCTOOOOOS */
+/* PRODUCTOOOOSSSS */
+/* Solo poner los prodcutos y su pequeña descripccion*/
+.productosintro {
+    margin-top: 100px;
+    padding: 30px;
+    background-color: #fff1f1;
+    border-radius: 20px;
+}
+.productosintro h1{
+    display: flex;
+    justify-content: center;
+}
+.productosintro p{
+    display: flex;
+    justify-content: center;
+}
+.listadeproductos1 {
+    margin-top: 30px;
+
+}
+.listadeproductos2 {
+    margin-top: 20px;
+}
+.card {
+    height: 600px;
+    box-shadow: 0px 0px 10px 5px #c4d1ea; 
+    margin-bottom: 20px;
+    
+}
+.card img {
+    height: 300px;
+}
+@media only screen and (min-width: 768px) {
+    .card {
+        height: 800px
+    }
+    .card img {
+        height: 500px;
+    }
+    
+}
+.card .btn {
+    background-color: #d0b5da;
+}
+.card .btn-primary {
+    border-color: #d0b5da;
+}
+
+/* CONTENIDO DEL BLOG */
+/* AQUI EMPIEZAA */
+.blogintro{
+    margin-top: 100px;
+    background-color: #c4d1ea;
+    padding: 30px;
+}
+.padreblog {
+    margin: 30px;
+}
